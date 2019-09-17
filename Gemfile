@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
 
+#conexão com a AWS
+gem "aws-sdk-s3"
+
 # Autenticação
 gem 'devise'
 # Serialização do Json
