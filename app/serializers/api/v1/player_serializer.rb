@@ -3,4 +3,4 @@ class Api::V1::PlayerSerializer
   set_type :execution
   attributes :id, :start_date, :end_date, :elapsed_time
   belongs_to :movie
- end
+end

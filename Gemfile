@@ -3,9 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
 
+#vuejs
+gem 'webpacker'
+
 #conexão com a AWS
 gem "aws-sdk-s3"
 
+#Foreman
+gem 'foreman'
 # Autenticação
 gem 'devise'
 # Serialização do Json
